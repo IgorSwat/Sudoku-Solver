@@ -18,6 +18,7 @@ The following external resources (fonts and icons) were used:
 ## Requirements
 + C++ 20
 + SFML 2.5.1 library
++ CMake >= 3.0
 
 ## Setup and usage
 To build the solution from source, follow the steps below:
