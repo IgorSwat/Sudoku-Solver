@@ -2,6 +2,9 @@
 
 A simple graphic C++ program for solving sudoku with user interface created with SFML library.
 
+<img src="md/img1.png" alt="Opis" width="600"/>
+<br>
+
 ## External resource
 The following external resources (fonts and icons) were used:
 + <a href="https://www.flaticon.com/free-icons/undo" title="undo icons">Undo icons created by Freepik - Flaticon</a>
@@ -15,13 +18,15 @@ The following external resources (fonts and icons) were used:
 ## Requirements
 + C++ 20
 + SFML 2.5.1 library
++ CMake >= 3.0
 
 ## Setup and usage
 To build the solution from source, follow the steps below:
 1. Download SFML 2.5.1 library (if you haven't done it yet) from <a href="https://www.sfml-dev.org/download/sfml/2.5.1/">here</a>.
 2. Clone this repository to your local environment:
     ```
-    ...
+    git clone https://github.com/IgorSwat/Sudoku-Solver
+    cd Sudoku-Solver
     ```
 3. Build the solution with CMake. Remember to set DSFML_DIR variable pointing to the subdirectory of the downloaded SFML library 
 containing the file **SFMLConfig.cmake** - usually it's <path_to_sfml>/lib/cmake/SFML.
