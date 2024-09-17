@@ -3,6 +3,7 @@
 A simple graphic C++ program for solving sudoku with user interface created with SFML library.
 
 <img src="md/img1.png" alt="Opis" width="600"/>
+<br>
 
 ## External resource
 The following external resources (fonts and icons) were used:
